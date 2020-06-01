@@ -54,10 +54,10 @@ p {
     padding-bottom: 5rem;
 }
 .frame-wrap {
-    width: 90%;
+    width: 100%;
 }
 .slide img {
-    width: 98%;
+    width: 90%;
     margin: auto;
 }
 /* Mobile */
