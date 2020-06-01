@@ -1,0 +1,152 @@
+:root {
+    --gray1: #1F1F1F;
+    --gray2: #333333;
+    --gray3: #4F4F4F;
+    --gray4: #828282;
+    --gray5: #BDBDBD;
+    --gray6: #F2F2F2;
+    --red: #C71E1E;
+    --orange: #FA8214;
+    --yellow: #FFC107;
+    --green: #219653;
+    --blue1: #0a2161;
+    --blue2: #1651f2;
+    --purple1: #6610f2;
+    --purple2: #6f42c1;
+    --pink: #e83e8c;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #FFFCFC;
+    --primary: #060D23;
+    --secondary: #1651f2;
+    --success: #219653;
+    --info: var(--cyan);
+    --warning: #FFC107;
+    --danger: #C71E1E;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+p {
+    font-size: 20px;
+}
+.slick-prev:before, 
+.slick-next:before {
+    font-size: 30px;
+}
+.slick-prev {
+    left: -35px;
+    margin-left: 4px;
+}
+.slick-next {
+    right: -30px;
+    margin-right: 10px;
+}
+.bg-primary {
+    background: var(--primary)!important;
+}
+.section {
+    padding-top: 3.5rem;
+    padding-bottom: 5rem;
+}
+.frame-wrap {
+    width: 100%;
+}
+.slide img {
+    width: 98%;
+    margin: auto;
+}
+/* Mobile */
+@media (max-width: 768px){
+    .slick-next,
+    .slick-prev {
+        display: none;
+    }
+}
+.slide-img-1 {
+    content: url('/frames&screenshots/mobile/home2.png');
+}
+.slide-img-2 {
+    content: url('/frames&screenshots/mobile/home3.png');
+}
+.slide-img-3 {
+    content: url('/frames&screenshots/mobile/departments.png');
+}
+.slide-img-4 {
+    content: url('/frames&screenshots/mobile/details1.png');
+}
+.slide-img-5 {
+    content: url('/frames&screenshots/mobile/details2.png');
+}
+.slide-img-6 {
+    content: url('/frames&screenshots/mobile/signup.png');
+}
+.slide-img-7 {
+    content: url('/frames&screenshots/mobile/account1.png');
+}
+.slide-img-8 {
+    content: url('/frames&screenshots/mobile/account2.png');
+}
+/* End of Mobile */
+
+/* Tablet */
+@media (min-width: 768px) {
+    .slide-img-1 {
+        content: url('/frames&screenshots/ipad_pro/home1.png');
+    }
+    .slide-img-2 {
+        content: url('/frames&screenshots/ipad_pro/home2.png');
+    }
+    .slide-img-3 {
+        content: url('/frames&screenshots/ipad_pro/departments.png');
+    }
+    .slide-img-4 {
+        content: url('/frames&screenshots/ipad_pro/details1.png');
+    }
+    .slide-img-5 {
+        content: url('/frames&screenshots/ipad_pro/details2.png');
+    }
+    .slide-img-6 {
+        content: url('/frames&screenshots/ipad_pro/signup.png');
+    }
+    .slide-img-7 {
+        content: url('/frames&screenshots/ipad_pro/account1.png');
+    }
+    .slide-img-8 {
+        content: url('/frames&screenshots/ipad_pro/account2.png');
+    }
+}
+/* End of Tablet */
+
+/* PC */
+@media (min-width: 1024px) {
+    .slide-img-1 {
+        content: url('/frames&screenshots/pc/home1.png');
+    }
+    .slide-img-2 {
+        content: url('/frames&screenshots/pc/home2.png');
+    }
+    .slide-img-3 {
+        content: url('/frames&screenshots/pc/departments.png');
+    }
+    .slide-img-4 {
+        content: url('/frames&screenshots/pc/details1.png');
+    }
+    .slide-img-5 {
+        content: url('/frames&screenshots/pc/details2.png');
+    }
+    .slide-img-6 {
+        content: url('/frames&screenshots/pc/signup.png');
+    }
+    .slide-img-7 {
+        content: url('/frames&screenshots/pc/account1.png');
+    }
+    .slide-img-8 {
+        content: url('/frames&screenshots/pc/account2.png');
+    }
+}
+/* End of PC */
