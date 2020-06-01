@@ -1,2 +1,2 @@
 # Tradersam Demo
- Illustration of [Traders.am](traders.am)
+ Illustration of [Traders.am](http://traders.am/)
