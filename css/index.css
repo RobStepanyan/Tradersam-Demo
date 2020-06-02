@@ -69,56 +69,56 @@ p {
     }
 }
 .slide-img-1 {
-    content: url('/frames&screenshots/mobile/width900px/home2.png');
+    content: url('/frames&screenshots/mobile/webp900px/home2.webp');
 }
 .slide-img-2 {
-    content: url('/frames&screenshots/mobile/width900px/home3.png');
+    content: url('/frames&screenshots/mobile/webp900px/home3.webp');
 }
 .slide-img-3 {
-    content: url('/frames&screenshots/mobile/width900px/departments.png');
+    content: url('/frames&screenshots/mobile/webp900px/departments.webp');
 }
 .slide-img-4 {
-    content: url('/frames&screenshots/mobile/width900px/details1.png');
+    content: url('/frames&screenshots/mobile/webp900px/details1.webp');
 }
 .slide-img-5 {
-    content: url('/frames&screenshots/mobile/width900px/details2.png');
+    content: url('/frames&screenshots/mobile/webp900px/details2.webp');
 }
 .slide-img-6 {
-    content: url('/frames&screenshots/mobile/width900px/signup.png');
+    content: url('/frames&screenshots/mobile/webp900px/signup.webp');
 }
 .slide-img-7 {
-    content: url('/frames&screenshots/mobile/width900px/account1.png');
+    content: url('/frames&screenshots/mobile/webp900px/account1.webp');
 }
 .slide-img-8 {
-    content: url('/frames&screenshots/mobile/width900px/account2.png');
+    content: url('/frames&screenshots/mobile/webp900px/account2.webp');
 }
 /* End of Mobile */
 
 /* Tablet */
 @media (min-width: 768px) {
     .slide-img-1 {
-        content: url('/frames&screenshots/ipad_pro/width1100px/home1.png');
+        content: url('/frames&screenshots/ipad_pro/webp1100px/home1.webp');
     }
     .slide-img-2 {
-        content: url('/frames&screenshots/ipad_pro/width1100px/home2.png');
+        content: url('/frames&screenshots/ipad_pro/webp1100px/home2.webp');
     }
     .slide-img-3 {
-        content: url('/frames&screenshots/ipad_pro/width1100px/departments.png');
+        content: url('/frames&screenshots/ipad_pro/webp1100px/departments.webp');
     }
     .slide-img-4 {
-        content: url('/frames&screenshots/ipad_pro/width1100px/details1.png');
+        content: url('/frames&screenshots/ipad_pro/webp1100px/details1.webp');
     }
     .slide-img-5 {
-        content: url('/frames&screenshots/ipad_pro/width1100px/details2.png');
+        content: url('/frames&screenshots/ipad_pro/webp1100px/details2.webp');
     }
     .slide-img-6 {
-        content: url('/frames&screenshots/ipad_pro/width1100px/signup.png');
+        content: url('/frames&screenshots/ipad_pro/webp1100px/signup.webp');
     }
     .slide-img-7 {
-        content: url('/frames&screenshots/ipad_pro/width1100px/account1.png');
+        content: url('/frames&screenshots/ipad_pro/webp1100px/account1.webp');
     }
     .slide-img-8 {
-        content: url('/frames&screenshots/ipad_pro/width1100px/account2.png');
+        content: url('/frames&screenshots/ipad_pro/webp1100px/account2.webp');
     }
 }
 /* End of Tablet */
