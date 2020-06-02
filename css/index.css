@@ -396,7 +396,8 @@ template {
 .text-white{color:#fff!important}
 .text-center{text-align:center!important}
 .mt-5,.my-5{margin-top:3rem!important}
-.m-0{margin: 0!important;}
+.m-0{margin: 0!important}
+.font-weight-bold{font-weight: bold}
 /* End of from bootstrap */
 :root {
     --gray1: #1F1F1F;
@@ -436,7 +437,7 @@ p {
 }
 .slick-prev,
 .slick-next {
-    transform: scale(1.5);
+    transform: scale(.25);
 }
 .slick-next {
     right: -15px;
