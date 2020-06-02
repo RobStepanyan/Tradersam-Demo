@@ -125,6 +125,12 @@ p {
 
 /* PC */
 @media (min-width: 1024px) {
+    .frame-wrap {
+        width: 100%;
+    }
+    .slide img {
+        width: 98%;
+    }
     .slide-img-1 {
         content: url('/frames&screenshots/pc/home1.png');
     }
