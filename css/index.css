@@ -440,7 +440,7 @@ p {
     transform: scale(.25);
 }
 .slick-next {
-    right: -15px;
+    right: -10px;
 }
 .slick-prev {
     left: -30px;
